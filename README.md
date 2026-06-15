@@ -1,14 +1,22 @@
 # Metal-Fasteners-Detection-Distance-Overlap-Analysis
 A computer vision system for detecting metal clamps in industrial images, computing spatial distances between them, and analyzing overlapping relationships for quality inspection and structural assessment.
-🔩 Industrial Metal Clamp Detection & Spatial Analysis System
+
+
+  🔩 Industrial Metal Clamp Detection & Spatial Analysis System
+  
 📌 Overview
+
 This project is an industrial computer vision system designed for automatic detection of metal clamps in images and video streams. It goes beyond simple object detection by performing geometric spatial analysis, including:
-Accurate clamp detection using YOLO
-Calibration from pixels to real-world units (inches)
-Measurement of spacing between clamps
-Detection of overlapping or abnormal clamp arrangements
-Full pipeline support for both images and videos
+
+- Accurate clamp detection using YOLO
+- Calibration from pixels to real-world units (inches)
+- Measurement of spacing between clamps
+- Detection of overlapping or abnormal clamp arrangements
+- Full pipeline support for both images and videos
+
 The system is suitable for industrial inspection, quality control, and structural verification tasks.
+
+
 🚀 Key Features
 🔍 Object Detection
 YOLO-based detection using a custom-trained model (yolo11m)
