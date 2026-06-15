@@ -1,0 +1,4 @@
+import gdown
+
+url = "https://drive.google.com/drive/folders/1mwsFEpzcQCUZZ4207cKrvwCAQyF78t0b?usp=sharing"
+gdown.download(url, "best.pt", quiet=False)
